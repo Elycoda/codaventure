@@ -1,0 +1,38 @@
+body {
+    background-color : rgb(16, 71, 16);
+    color : rgb(255, 255, 255);
+    font-family: "Arial", "Verdana", sans-serif;
+
+}
+
+h1 {
+    color : rgb(208, 65, 65);
+    text-align: center;
+}
+
+h2 {
+    color : rgb(184, 208, 65);
+}
+
+.carte {
+    color: black;
+    border: 3px solid rgb(184, 208, 65);
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+
+.carte:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    background-color: rgb(187, 187, 187);
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.flex {
+    display:flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
